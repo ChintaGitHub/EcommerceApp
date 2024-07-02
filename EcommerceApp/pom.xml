@@ -7,6 +7,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>EcommerceApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>http://54.67.45.31:9000/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>Admin</sonar.password>
+            </properties>
+
   <dependencies>
     
      <dependency>
